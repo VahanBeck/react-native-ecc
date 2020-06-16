@@ -31,5 +31,5 @@ repositories {
 }
 
 dependencies {
-  compile "com.facebook.react:react-native:0.60.6"
+  compile "com.facebook.react:react-native:0.62.2"
 }
