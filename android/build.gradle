@@ -4,19 +4,19 @@ buildscript {
   }
 
   dependencies {
-    classpath 'com.android.tools.build:gradle:3.5.3'
+    classpath 'com.android.tools.build:gradle:1.2.3'
   }
 }
 
 apply plugin: 'com.android.library'
 
 android {
-  compileSdkVersion 29
+  compileSdkVersion 28
   buildToolsVersion "28.0.3"
 
   defaultConfig {
     minSdkVersion 19
-    targetSdkVersion 28
+    targetSdkVersion 26
     versionCode 1
     versionName "1.0"
   }
@@ -31,5 +31,5 @@ repositories {
 }
 
 dependencies {
-  compile "com.facebook.react:react-native:0.62.2"
+  compile "com.facebook.react:react-native:+"
 }
